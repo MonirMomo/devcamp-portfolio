@@ -13,6 +13,6 @@
 	<p><%= item.subtitle %></p>
 	<p><%= item.body %></p>
 	<p><%= link_to "Edit", edit_portfolio_path(item.id) %></p>
-	<%#= image_tag item.thump_image %>
+	<p><%= button_to "Delete", portfolio_path(item.id), method: :delete, data: {confirm: 'Are you sure?'} %></p>
 
 <% end %>
