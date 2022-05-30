@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    PennywiseViewTool::Renderer.copyright 'Monir', 'All rights reserved'
+  end
 end
