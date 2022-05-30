@@ -72,7 +72,7 @@ group :development do
   gem 'turbolinks'
   gem 'jquery-turbolinks'
   gem 'coffee-rails'
-
+  gem 'petergate', '~> 3.0'
   gem 'pennywise_view_tool', git: 'https://github.com/monirabd/pennywise_view_tool'
 end
 
