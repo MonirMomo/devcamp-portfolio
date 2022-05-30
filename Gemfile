@@ -67,5 +67,7 @@ group :development do
   gem 'friendly_id', '~> 5.1.0'
 
   gem 'devise', '~> 4.8', '>= 4.8.1'
+  gem 'bootstrap', '~> 4.0.0'
+  gem 'jquery-rails'
 end
 
