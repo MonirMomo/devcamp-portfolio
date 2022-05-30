@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'sassc-rails'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
@@ -65,5 +67,12 @@ group :development do
   gem 'friendly_id', '~> 5.1.0'
 
   gem 'devise', '~> 4.8', '>= 4.8.1'
+  gem 'bootstrap', '~> 4.0.0'
+  gem 'jquery-rails'
+  gem 'turbolinks'
+  gem 'jquery-turbolinks'
+  gem 'coffee-rails'
+  gem 'petergate', '~> 3.0'
+  gem 'pennywise_view_tool', git: 'https://github.com/monirabd/pennywise_view_tool'
 end
 
