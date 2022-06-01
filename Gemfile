@@ -72,7 +72,10 @@ group :development do
   gem 'turbolinks'
   gem 'jquery-turbolinks'
   gem 'coffee-rails'
-  gem 'petergate', '~> 3.0'
+  gem 'petergate', '~> 1.7'
+  gem "will_paginate", "~> 3.1.7"
   gem 'pennywise_view_tool', git: 'https://github.com/monirabd/pennywise_view_tool'
+  gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+  gem 'kaminari', '~> 1.0', '>= 1.0.1'
 end
 
