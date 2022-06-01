@@ -1,7 +1,8 @@
 module ApplicationHelper
   def login_helper style
     if ! current_user.is_a?(GuestUser)
-      button_to 'Logout', destroy_user_session_path, method: :delete, class: style 
+      "&ensp;".html_safe +
+      (button_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-danger") 
 
     else
       (link_to "Register", new_user_registration_path, class: style ) +
