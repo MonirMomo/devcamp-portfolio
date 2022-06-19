@@ -78,5 +78,15 @@ group :development do
   gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
   gem 'kaminari', '~> 1.0', '>= 1.0.1'
   gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+  gem 'carrierwave', '~> 1.0'
+  gem 'mini_magick', '~> 4.6'
+  gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
+  gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
+  gem 'cocoon', '~> 1.2', '>= 1.2.9'
+  gem 'gritter', '~> 1.2'
+  gem 'twitter', '~> 6.1'
+  gem 'redis', '~> 3.3', '>= 3.3.3'
+  gem 'redcarpet', '~> 3.4'
+  gem 'coderay', '~> 1.1', '>= 1.1.1'
 end
 
